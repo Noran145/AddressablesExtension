@@ -29,7 +29,7 @@ namespace Noran145.AddressablesExtension.Editor
         private const string BUILD_PATH_VARIABLE_NAME = "CustomBuildPath";
         private const string LOAD_PATH_VARIABLE_NAME = "CustomLoadPath";
         private static string BUILD_PATH_DEFAULT_VALUE = $"ServerData/{TargetBuildPlatform}";
-        private const string LOAD_PATH_DEFAULT_VALUE = "http://localhost:3000";
+        private const string LOAD_PATH_DEFAULT_VALUE = "{VrmImporter.Config.AppConfig.RemoteAddressableUrl}";
         
         private static AddressableAssetSettings settings;
         private static AddressableAssetGroup activeSceneGroup;
